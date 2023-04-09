@@ -79,7 +79,7 @@ int main(){
     cout << endl;
  
  
-    a = { 1, 1, 2, 2, 2, 3, 3 };
+    a = { 1, 1, 2, 2, 2, 3};
     int n = unique( a.begin(), a.end() ) - a.begin();
  
     cout << n << endl; /// 3
