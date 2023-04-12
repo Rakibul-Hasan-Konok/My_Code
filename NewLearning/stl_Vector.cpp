@@ -62,7 +62,7 @@ int main(){
     cout << a.back() << endl; /// 4
  
  
-    cout << *a.begin() << endl; // a.begin() holo pointer so pointer er value print korar jonno (*)
+    //cout << *a.begin() << endl; // a.begin() holo pointer so pointer er value print korar jonno (*)
  
     a.erase( a.begin() ); /// O(n) complexity. ponter delete
     for ( auto u : a ) cout << u << " "; /// 4 5 1 2
