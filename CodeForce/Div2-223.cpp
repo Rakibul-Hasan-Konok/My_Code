@@ -31,4 +31,5 @@ else if((v[0]<=v[n-1]) && i%2!=0) {
         n=v.size();
         }
 cout<<s<<" "<<d<<endl;
+return 0;
 }
