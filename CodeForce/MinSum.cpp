@@ -10,6 +10,10 @@ while(t--){
     long long int OR=0;
     for(int i=0;i<n;i++){
         cin>>v[i];
+       
+    } 
+    for(int i=0;i<n;i++){
+        
         OR|=v[i];
     } 
     cout<<OR<<endl;
