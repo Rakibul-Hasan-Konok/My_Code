@@ -14,10 +14,7 @@ while(t--){
     if(st[0]==s[0] && s[n-1]=='w'){
     for(int i=1;i<s.size();i++)
     {   
-    //     if((s[i]!='m') || (s[i]!='e') || (s[i]!='o') || (s[i]!='w')){
-    //         k=0;
-    //         break;
-    //     }
+    
         if(s[i]==s[i-1]) continue;
         else if(st[k]!=s[i]){
               k=0;
@@ -31,4 +28,5 @@ while(t--){
     if(k>=3) cout<<"YES\n";
     else cout<<"NO\n";
 }
+return 0;
 }
