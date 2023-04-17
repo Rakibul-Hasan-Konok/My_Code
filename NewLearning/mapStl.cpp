@@ -4,6 +4,7 @@ int main(){
 
 map<int,int> mp;
 mp.insert({1,20});
+//m[1]=20;
 mp.insert({2,30});
 mp.insert({3,40});
 mp.insert({4,50});
