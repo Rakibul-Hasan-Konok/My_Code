@@ -9,8 +9,9 @@ mp.insert({2,30});
 mp.insert({3,40});
 mp.insert({4,50});
 mp.insert({5,60});
+mp.erase(2);
 cout<<mp[1]<<endl;
-cout<<mp.at(2)<<endl;
+//cout<<mp.at(2)<<endl;
 for(auto it:mp) cout<<it.second<<endl;
 cout<<mp.size()<<endl;
 
