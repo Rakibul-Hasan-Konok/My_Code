@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color: red;
     background: green;
 
@@ -11,4 +11,16 @@ body{
 }
 p{
     color: white;
+} */
+
+.p2{
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 25px;
+}
+#p1{
+    border-width: 10px;
+    border-style: dotted;
+    border-color: blueviolet;
 }
