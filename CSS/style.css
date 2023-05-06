@@ -18,6 +18,12 @@ p{
     border-style: solid;
     border-color: red;
     border-radius: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 25px;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 #p1{
     border-width: 10px;
