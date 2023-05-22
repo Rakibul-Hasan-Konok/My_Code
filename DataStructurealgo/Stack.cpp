@@ -1,4 +1,4 @@
-// //array stack
+// array stack
 // #include<iostream>
 
 // using namespace std;
