@@ -39,6 +39,10 @@ int main(){
     vector<int>::iterator it;
     for ( it = a.begin(); it != a.end(); it++ ) cout << *it << " "; 
     cout << endl;
+
+    vector<int> :: iterator it;
+     
+     for(auto it=a.begin();i!=)
  
     int arr[]={1,2,3,4,5};
     sort(arr,arr+5); //array shorting 
