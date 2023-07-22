@@ -12,11 +12,11 @@ int search(int arr[], int key)
 }
 int main()
 {
-	int arr[Size],key,num,i;
-    cout<<"Enter The Number Of Elements: ";
-    cin>>num;
-    cout<<"Enter "<<num<<" Elements: ";
-     for(i=0;i<num;i++) cin>>arr[i];
+	int arr[Size],key,n,i;
+    cout<<"Enter The nber Of Elements: ";
+    cin>>n;
+    cout<<"Enter "<<n<<" Elements: ";
+     for(i=0;i<n;i++) cin>>arr[i];
     cout<<"Enter The Value to be searched: ";
     cin>>key;
     

@@ -2,31 +2,31 @@
 using namespace std;
 int arr[20];
 
-int search(int arr[], int num,int position)
+int search(int arr[], int n,int position)
 {
-    if(position==num) return 0;
+    if(position==n) return 0;
     else{
         arr[position-1]=arr[position];
     }
 
-    return search(arr,num,position+1);
+    return search(arr,n,position+1);
     
    
     
 }
 int main()
 {
-	int item,position,num,i;
-    cout<<"Enter The Number Of Elements: ";
-    cin>>num;
-    cout<<"Enter "<<num<<" Elements: ";
-     for(i=0;i<num;i++) cin>>arr[i];
+	int item,position,n,i;
+    cout<<"Enter The nber Of Elements: ";
+    cin>>n;
+    cout<<"Enter "<<n<<" Elements: ";
+     for(i=0;i<n;i++) cin>>arr[i];
     cout<<"enter the element with position u wanna insert: ";
     cin>>item>>position;
     
-   search(arr,num,position);
+   search(arr,n,position);
 	
-    for(i=0;i<num-1;i++) cout<<arr[i]<<" ";
+    for(i=0;i<n-1;i++) cout<<arr[i]<<" ";
 
     
 

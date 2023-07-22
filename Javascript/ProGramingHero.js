@@ -2,9 +2,9 @@
 // var nam;
 // console.log(nam);
 
-// var number=[1,2,3,4,5];
-// console.log(number.slice(2,4));
-// console.log(number);
+// var nber=[1,2,3,4,5];
+// console.log(nber.slice(2,4));
+// console.log(nber);
 
 function stratfan(){
     console.log("Hi! I am Konok");

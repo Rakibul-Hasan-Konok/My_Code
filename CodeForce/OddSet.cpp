@@ -7,12 +7,12 @@ int main( )
    while(t--){
     int n;
     cin>>n;
-    int k,oddNum=0,evenNum=0;
+    int k,oddn=0,evenn=0;
     for(int i=0;i<2*n;i++){
        cin>>k;
-       if(k%2==0) evenNum++;
+       if(k%2==0) evenn++;
     }
-    if(evenNum==n) cout<<"YES\n";
+    if(evenn==n) cout<<"YES\n";
     else cout<<"NO\n";
    }
 }
